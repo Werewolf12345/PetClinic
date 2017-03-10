@@ -69,8 +69,8 @@ public class ClinicMain {
 
         try {
             con =
-                    DriverManager.getConnection("jdbc:mysql://localhost:3306/petclinic?" +
-                            "user=root&password=terminalx1053&useSSL=true");
+                    DriverManager.getConnection("jdbc:postgresql://localhost:5432/petclinic?" +
+                            "user=postgres&password=terminalx1053&useSSL=true");
 
             con.setAutoCommit(false);
 
